@@ -1,0 +1,10 @@
+span {
+    background-color: green;
+    text-align: justify;
+}
+
+div {
+    background-color: purple;
+    text-align: justify;
+    width: 400px;
+}
