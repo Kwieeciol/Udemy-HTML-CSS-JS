@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularze</title>
+    </head>
+    <body style="background-color: #476C9B;">
+        <!--form = formularz
+            action = akcja method = http request method
+            enctype = encryption type
+            accept-charset = akceptowanie znaków-->
+        <form action="mailto:<twoj email>?subject=Ankieta" method="POST" enctype="text/plain" accept-charset="utf-8">
+            <!--type = rodzaj inputu 
+                name = nazwa zmiennej
+                value = wartość (domyślna)
+                maxlength = maksymalna długość 
+                readonly = czytaj tylko
+                disabled = wyłączone-->
+            Imię: <input type="text" name="imie" ><br>
+            Hasło: <input type="password" name="haslo" maxlength="16"><br>
+            <!-- label = etykieta
+                 for = dla -->
+            <fieldset>
+                <legend>Jakie jest twoje hobby?</legend>
+                <ul>
+                    <li><input type="checkbox" name="hobby" value="plywanie" id="1"><label for="1">Pływanie</label></li>
+                    <li><input type="checkbox" name="hobby" value="bieganie" id="2"><label for="2">Bieganie</label></li>
+                    <li><input type="checkbox" name="hobby" value="spanie" id="3"><label for="3">Spanie</label></li>
+                    <li><input type="checkbox" name="hobby" value="jedzenie" id="4"><label for="4">Jedzenie</label></li>
+                </ul>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do jakiej kategorii wiekowej należysz?</legend>
+                <input type="radio" name="age" value="1-18" id="4"><label for="4">1-18</label>
+                <input type="radio" name="age" value="18-24" id="5"><label for="5">18-24</label>
+                <input type="radio" name="age" value="24+" id="6"><label for="6">24+</label>
+            </fieldset>
+            <textarea cols="40" rows="5"></textarea><br>
+            <select name="kolory" multiple="multiple"> <!-- multiple = kilka na raz -->
+                <option value="zolty">Zółty</option> 
+                <option value="zielony">Zielony</option>
+                <option value="czerwony">Czerwony</option>
+                <option value="niebieski">Niebieski</option>
+            </select><br>
+            <input type="file" name="plik"><br> <!-- enctype="multipart/form-data" -->
+            <input type="hidden" name="data" value="01.11.2020"><br>
+            <button type="submit">
+                <table>
+                    <tr>
+                        <td>1</td><td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td><td>4</td>
+                    </tr>
+                </table>
+            </button>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>

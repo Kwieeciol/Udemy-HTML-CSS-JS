@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+                "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ramki</title>
+    </head>
+    <!-- frameset to zbiór ramek
+         a cols od column to kolumny
+         rows = wiersze -->
+    <frameset rows="10%, *">
+        <frame src="banner.html"/>
+        <frameset cols="10%, *, 10%" border="2" frameborder="yes" bordercolor="#123456">
+            <frame src="menu.html" noresize="noresize"/>
+            <frame src="video-kurs-tworzenia-stron-www.html" name="glowna_tresc"/>
+            <frame src="menu.html" noresize="noresize"/>
+        </frameset>
+        <noframes><body>Niestety twoja przeglądarka nie obsługuje ramek</body></noframes>
+    </frameset>
+</html>

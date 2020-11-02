@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Formatowanie tekstu</title>
+    </head>
+    <body style="background-color: #123456;">
+        <b>BOLD</b><br> <!-- b = bold --><!-- br = break -->
+        <i>ITALIC</i><br> <!-- i = italic -->
+        <u>UNDERLINE</u><br> <!--u = underline-->
+        <s>STRIKE THROUGH</s><br> <!-- s = strike through -->
+        
+        <b><i><u><s>BOLD ITALIC UNDERLINE STRIKE THROUGH</s></u></i></b><br>
+
+        <font size="15">To jest jakiś tekst</font><br>
+        <font color="blue">To jest niebieski tekst</font><br>
+        <font face="Georgia, Arial">To jest jakiś inny tekst</font><br>
+        <!-- Semantyczne tagi -->
+        <strong>To jest pogrubiony tekst, ale niesie on wartość semantyczną.</strong><br>
+        <em>To jest pochylony tekst, ale niesie on wartość semantyczną.</em><br> <!-- emphasis = nacisk, podkreślenie -->
+        x<sup>2</sup><br> <!-- sup = do potęgi -->
+        x<sub>2</sub><br> <!-- sub = do potęgi dolnej -->
+
+        <p><sup>To jest tekst.</sup>To jest tekst. To jest tekst.<sub>To jest tekst.</sub>To jest tekst.</p><br>
+
+        <!-- Header = nagłówek -->
+        <h1>To jest header 1</h1>
+        <h2>To jest header 2</h2>
+        <h3>To jest header 3</h3>
+        <h4>To jest header 4</h4>
+        <h5>To jest header 5</h5>
+        <h6>To jest header 6</h6>
+
+        <pre> <!-- pre = preformated -->
+            <code>
+                #include &lt;iostream>
+
+                using namespace std;
+
+                int main()
+                {
+                    cout &lt;&lt;&quot;To jest jakiś prosty tekst&quot;;
+                    system(&quot;pause&quot;);
+                    return 0;
+                }
+            </code>
+        </pre>
+
+        &lt;pre>Służy do pokazanie pre-sformatowanego tekstu.&lt;/pre>
+        
+        <br><br>
+        <var>int a; int b;</var><br><br> <!-- var = variable -->
+
+        <cite>Albert Einstein</cite> <!-- cite = przytaczać -->
+        <blockquote cite="www.google.com">
+            <p>
+                Wiadomo, że taki a taki pomysł jest nie do zrealizowania. Ale żyje sobie jakiś nieuk, który o tym nie wie. I on właśnie dokonuje tego wynalazku.
+            </p>
+        </blockquote>
+
+        <dfn> <!-- dfn = define = definiować = opisywać-->
+            To jest jakaś definicja.
+        </dfn>
+        
+        <pre>
+            <adress>
+                Łukasz Kwieciński
+                38-001, Santa Cruz de Tenerife
+                ul. Coś tam 123
+            </adress>
+        </pre>
+
+        <acronym lang="en" title="World Wide Web Consortium">W3C</acronym> <!-- akronimy -->
+        <br>
+        <abbr lang="pl" title="profesor">prof.</abbr> <!-- abbreviation = skrót -->
+        <br>
+        <abbr lang="pl" title="doktor">dr</abbr>
+    </body>
+</html>
