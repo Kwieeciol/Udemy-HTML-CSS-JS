@@ -1,0 +1,11 @@
+body {
+    background-color: cadetblue;
+}
+
+p.definicja, b.definicja {
+    color: green;
+}
+
+h1#nazwa1 {
+    color: #FFCC00;
+}
