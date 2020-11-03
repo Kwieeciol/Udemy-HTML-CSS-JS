@@ -1,0 +1,26 @@
+body {
+    background-color: #e25a00;
+}
+
+/* link = link */
+div.menu_linki a:link, div.menu_linki a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* visited = odwiedzony */
+/* div.menu_linki a:visited {
+    color: #FFCC00;
+    text-decoration: none;
+} */
+
+/* hover = najedzony */
+div.menu_linki a:hover, div.menu_linki a:active {
+    color: black;
+    background-color: #008000;
+}
+
+/* active = aktywny */
+/* div.menu_linki a:active {
+    color: red;
+} */
