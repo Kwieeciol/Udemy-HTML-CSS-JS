@@ -1,0 +1,44 @@
+body {
+    background-color: #c4901f;
+    font-size: 30px;
+}
+
+div.test {
+    color: #572c33;
+    white-space: nowrap;
+} 
+/* 
+ * test-decoration
+ * none - wyłączyć
+ * underline - podkreślić
+ * line-through - skreślic
+ * overline - nadkreślić
+ * inherit - odziedziczyć
+
+ * text-transform
+ * capitalize - wszystkie pierwsze literki są duże
+ * lowercase - małe literki
+ * uppercase - duże literki
+
+ * text-align
+ * justify - justyfikacja
+ * left - do lewej
+ * right - do prawej
+ * center - środek
+
+ * line-height - odległość między linijkami (% są względne font-size)
+
+ * text-indent - wcięcie tekstu
+
+ * word-spacing - odległość między słowami
+
+ * letter-spacing - odległość między literkami
+
+ * white-space
+ * normal
+ * nowrap - bez zawijania
+ * pre (preformatted)
+
+
+ * pt in cm mm
+*/
