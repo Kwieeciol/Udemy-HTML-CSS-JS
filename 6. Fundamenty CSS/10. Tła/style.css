@@ -1,0 +1,39 @@
+body {
+    background-color: #739201;
+    background-image: url('images/logo-video-kurs-pl.png');
+    background-repeat: repeat-x;
+    background-position: 20% 100%;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+
+div.przyklad {
+    font-family: Verdana;
+    background-color: #001f2d;
+    color: #0098a8;
+    text-decoration: none;
+    word-spacing: normal;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 1.6em;
+    font-size: 1em;
+}
+
+p {
+    font-size: 1.3em;
+    background-color: #8d861f;
+}
+
+/* 
+ * background-image = zdjęcie tła
+
+ * background-repeat = powtarzanie tła
+ * no-repeat
+ * repeat
+ * repeat-x
+ * repeat-y
+
+ * background-position = pozycja tła
+
+ * background-attachment = przymocowanie tła
+*/
